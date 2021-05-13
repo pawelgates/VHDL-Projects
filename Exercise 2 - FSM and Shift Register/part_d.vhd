@@ -30,7 +30,7 @@ architecture beh of part_d is
 				RESULT <= "001";
 			end if;		
 		end if;
-		i := i +1;
+		i := i + 1;
 		if(i = 6) then 
 			i := 0;
 		end if;
